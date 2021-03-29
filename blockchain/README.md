@@ -1,4 +1,5 @@
 `pip install flask`
+
 `pip install passlib`
 
 
@@ -9,7 +10,9 @@ you shold have mysql installed.
 you can run the command `pip install flask-mysqldb` and then run:
 
 `mysql.server start`
+
 `killall mysqld mysqld_safe`
+
 `mysql.server start`
 
 if these commands output an error and you're running on windows 10.
