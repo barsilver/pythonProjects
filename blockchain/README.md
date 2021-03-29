@@ -41,8 +41,11 @@ Enter the password in my case I have not change it thus "root"
 Execute the following queries:
 
 `mysql> CREATE DATABASE crypto;`
+
 `mysql> USE crypto;`
+
 `CREATE TABLE blockchain(number varchar(10), hash varchar(64), previous_hash varchar(64), data varchar(100), nonce varchar(15));`
+
 `CREATE TABLE users(name varchar(30), username varchar(30), email varchar(50), password varchar(100));`
 
 
